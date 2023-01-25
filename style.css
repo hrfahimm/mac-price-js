@@ -1,0 +1,57 @@
+
+body {
+    background:  white;
+}
+.container {
+    overflow: hidden;
+}
+.half-width {
+    background:white;
+    
+}
+
+
+
+ 
+
+   
+
+  .button {
+    position: relative;
+    background-color: #72d4db;
+    border: .5px solid rgb(79, 82, 81);
+    font-size: 20px;
+    color: #000000;
+    padding:10px 20px;
+    width: auto;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .button:after {
+    content: "";
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+  }
+  
+  .button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }
+  
+
+
+
+
